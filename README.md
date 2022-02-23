@@ -8,7 +8,7 @@ Caso você erre a sequência, o jogo é reiniciado e você deverá começar tudo
 
 Abrir o jogo, basta baixar o repositório e abrir o arquivo `index.html` em qualquer navegador.
 
-## Diveirta-se!!!
+## Divirta-se!!!
 
 ![Start Game](screens/start.png)
 ![Shufle Colors](screens/shuffle.png)
