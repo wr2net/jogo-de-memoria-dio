@@ -86,11 +86,18 @@ let gameOver = () => {
     order = [];
     clickedOrder = [];
 
-    playGame();
+    let info = document.getElementById('info');
+    let game = document.getElementById('game');
+    info.classList.remove('noShow');
+    game.classList.add('noShow');
 }
 
 // START GAME
 let playGame = () => {
+    let info = document.getElementById('info');
+    let game = document.getElementById('game');
+    info.classList.add('noShow');
+    game.classList.remove('noShow');
     alert(`Bem vindo ao Gênesis! Iniciando novo jogo!`);
     score = 0;
 
@@ -102,6 +109,3 @@ green.onclick = () => click(0);
 red.onclick = () => click(1);
 yellow.onclick = () => click(2);
 blue.onclick = () => click(3);
-
-// START
-playGame();

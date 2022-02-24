@@ -3,10 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Genesis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 <body>
-    <div class="main-game">
+    <div class="info" id="info">
+        <div class="title">Jogo da Memória</div>
+        <p>
+            Este é um simples jogo de memorização através de cores onde, você deve clicar na sequência de de cores conforme vai sendo mostrado em sua tela.<br />
+            A cada ciclo de acertos, é mostrado sua pontuação a você sobe um nível.<br />
+            Caso você erre a sequência, o jogo é reiniciado e você deverá começar tudo novamente.
+        </p>
+        <p>
+            <button onclick="playGame()" class="start-button" >Começar o Jogo</button>
+        </p>
+    </div>
+    <div class="main-game noShow" id="game">
         <div class="genius">
             <div class="blue"></div>
             <div class="yellow"></div>
