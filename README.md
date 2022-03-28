@@ -10,7 +10,7 @@ Abrir o jogo, basta baixar o repositório e abrir o arquivo `index.html` em qual
 
 ## Divirta-se!!!
 
-[Clique aqui para jogar](https://wagner.rigolidarosa.com/genesis/)
+[Clique aqui para jogar](https://genesis.wagner.rigolidarosa.com)
 
 ![Start Game](screens/start.png)
 ![Shufle Colors](screens/shuffle.png)
